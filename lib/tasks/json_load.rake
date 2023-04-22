@@ -5,7 +5,8 @@ namespace :json_load do
     json = JSON.parse(File.read('./db/data/decodes.json'), symbolize_names: true)
     json.each do |row|
       new_decode = Decode.find_or_create_by(row)
-      new_decode.bitlink_hash = new_decode.bitlink.chars.to_a.last(7).join
+      new_decode.bitlink_hash = new_decode.bitlink.chars.last(7).join
+      new_decode.click_year = new_decode.timestamp.chars.first(4).join
       new_decode.save
     end
     ActiveRecord::Base.connection.reset_pk_sequence!('decodes')
