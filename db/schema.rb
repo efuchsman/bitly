@@ -27,9 +27,10 @@ ActiveRecord::Schema.define(version: 2023_04_22_212512) do
     t.string "click_year"
   end
 
-  create_table "urls", primary_key: "url_hash", id: :string, force: :cascade do |t|
+  create_table "urls", force: :cascade do |t|
     t.string "long_url"
     t.string "domain"
+    t.string "url_hash"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
