@@ -10,15 +10,26 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2023_04_22_175723) do
+ActiveRecord::Schema.define(version: 2023_04_22_212512) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
-  create_table "urls", force: :cascade do |t|
+  create_table "decodes", force: :cascade do |t|
+    t.string "bitlink"
+    t.string "user_agent"
+    t.string "timestamp"
+    t.string "referrer"
+    t.string "remote_ip"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.string "bitlink_hash"
+    t.string "click_year"
+  end
+
+  create_table "urls", primary_key: "url_hash", id: :string, force: :cascade do |t|
     t.string "long_url"
     t.string "domain"
-    t.string "url_hash"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
