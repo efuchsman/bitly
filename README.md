@@ -16,9 +16,10 @@
 * [App Description](#app-description)
 * [System Requirements](#system-requirements)
 * [Technologies Used](#technologies-used)
-* [Setup](#setup)
+* [Setup for Ruby on Rails](#setup-for-ruby-on-rails)
+* [Setup for Docker](#setup-for-docker)
 * [Respository](#repository)
-* [Endpoints](#endpoints)
+* [Endpoint](#endpoint)
 
 # App Description
  This app allows users to retrieve the number of clicks for a long url based off of a given year.
@@ -27,6 +28,7 @@
 * Ruby 2.7.4
 * Rails 5.2.8
 * Docker Desktop Apple Chip https://www.docker.com/products/docker-desktop/
+* Apple M1
 
 # Technologies Used 
 
