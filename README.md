@@ -21,7 +21,7 @@
 * [Endpoints](#endpoints)
 
 # App Description
- This app allows users to retrieve the number of clicks for a long url based off a given year.
+ This app allows users to retrieve the number of clicks for a long url based off of a given year.
 
 # System Requirements
 * Ruby 2.7.4
@@ -84,3 +84,28 @@ In your browser: http://localhost:3000
 #### Response:
 
 <img src="https://user-images.githubusercontent.com/104859844/233860704-00566807-fcf9-4c9e-bd6b-68754a1ec2f9.png" width="375" height="350">
+
+
+# Contact 
+
+<table align="center">
+  <tr>
+    <td><img src="https://avatars.githubusercontent.com/u/104859844?s=150&v=4"></td>
+  </tr>
+  <tr>
+    <td>Eli Fuchsman</td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/efuchsman">GitHub</a><br>
+      <a href="https://www.linkedin.com/in/elifuchsman/">LinkedIn</a>
+    </td>
+  </tr>
+</table>
+
+<h3><b>Acknowledgements</b></h3>
+
+Bitly: [https://bitly.com/pages/landing](https://bitly.com/pages/landing)
+
+<p>Gif Source:</p>
+<p>https://media.tenor.com/l9pYJaNO0xUAAAAC/the-internet-baboon.gif</p>
