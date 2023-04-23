@@ -41,7 +41,7 @@
 
 1. Fork and Clone the repository
 2. Install gem packages: `bundle install`
-3. Setup the database: `rails db:{drop,create,migrate}`
+3. Setup the database: `rails db:migrate`
 4. Seed CSV data: `rails csv_load:urls`
 5. Seed JSON data: `rails json_load:decodes` (This make take several seconds)
 11. All 13 tests should be passing with 100% coverage: `bundle exec rspec`
