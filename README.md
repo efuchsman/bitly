@@ -59,3 +59,28 @@
 # Repository
 
 https://github.com/efuchsman/bitly
+
+ # Endpoint
+
+In your browser: http://localhost:3000
+
+## Click Results
+
+### GET Click Results for a given year
+
+#### Request:
+
+`http://localhost:3000/click_results?year=2021`
+
+#### Response:
+
+<img src="https://user-images.githubusercontent.com/104859844/233860521-5b8f3e1f-8df1-47fd-a97d-78bfcc2379a7.png" width="375" height="350">
+
+#### Request:
+
+`http://localhost:3000/click_results?year=2020`
+
+
+#### Response:
+
+<img src="https://user-images.githubusercontent.com/104859844/233860704-00566807-fcf9-4c9e-bd6b-68754a1ec2f9.png" width="375" height="350">
