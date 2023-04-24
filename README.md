@@ -43,7 +43,7 @@
 2. Install gem packages: `bundle install`
 3. Setup the database: `rails db:migrate`
 4. Seed CSV data: `rails csv_load:urls`
-5. Seed JSON data: `rails json_load:decodes` (This make take several seconds)
+5. Seed JSON data: `rails json_load:decodes` (This may take several seconds)
 11. All 13 tests should be passing with 100% coverage: `bundle exec rspec`
 12. Run the server `rails s`
 
@@ -54,7 +54,7 @@
 3. Builder docker image and launch server container: `docker-compose up --build` (You will only have to run `docker-compose up` after this unless you pull a newly updated version of the repository from GitHub)
 4. Migrate the database: `docker-compose exec web bundle exec rake db:migrate`
 5. Seed the CSV data: `docker-compose exec web bundle exec rake csv_load:urls`
-6. Seed the JSON data: `docker-compose exec web bundle exec rake json_load:decodes` (This make take several seconds)
+6. Seed the JSON data: `docker-compose exec web bundle exec rake json_load:decodes` (This may take several seconds)
 7. To close the the container: `Ctrl-C`
 8. If you need to drop the database and reseed data: `docker-compose down --volumes`
 
